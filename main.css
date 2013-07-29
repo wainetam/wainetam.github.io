@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET CODE */
+
+header {
+	word-spacing: 1.2em;
+	background-color: black;
+	padding: 0.7em 0.7em 0.7em 1.0em;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+header a:link { 
+	color: #adb6bb;
+	text-decoration: none;
+}
+
+header a:visited {
+	color: #adb6bb;
+}
+
+header a:hover {
+	color: white;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+.main {
+	background-color: white;
+
+}
+
+#logo {
+	display: block;
+	margin-top: 12%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 20%;
+	width: 20%;
+
+}
+
+.searchField {
+	width: 40%;
+	display: block; /* what does this do? */
+	height: 2em;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#buttonWrap {
+	text-align: center;
+}
+
+.button {
+	width: auto;
+	font-weight: bold;
+	font-size: 0.7em;
+	padding: 7px;
+	margin-top: 15px;
+	border: #d9d9d9 solid 1px;
+	border-radius: 3px;
+	background-color: #f2f2f2;
+	text-align: center;
+	display: inline-block; /*if declare inline, then can use text-align*/
+}
+
+.button a {
+	color: #444444;
+	text-decoration: none;
+}
+
+
+#searchButton {
+	/*float: left;
+	margin-left: 42.3%;
+	left: 42%;
+	position: relative;*/
+
+}
+
+#feelingLucky {
+	/*float: right;
+	margin-right: 42.3%;
+	left: 44%;
+	position: relative;*/
+}
+
+#signIn {
+	background-color: #db4a38;
+	padding: 9px;
+	color: white;
+	font-weight: bold;
+	width: 55px;
+	border: none;
+	float: right;
+	margin-right: 3%;
+	margin-top: 1.5%;
+}
+
+#signIn a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#signIn a:hover {
+	text-decoration: none;
+}
+
+#signIn a:visited {
+	color: white;
+}
+
+#footer {  /*footer as id or section?? */ /*how to change right margin on footer */
+	clear: both;
+	text-align: right;
+	padding: 0.6em 0.6em 0.8em 0.6em; /* right padding doesn't change anything */
+	width: 100%;
+	font-size: 0.8em;
+	color: gray;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-top: #ebebeb solid 1px;*/
+	/*margin-right: -50%;*/
+}
+
+#footer a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+#footer a:visited {
+	color: gray;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer a:active {
+	color: red;
+}
+
+.horizMenu li{
+	display: inline; /* displays as a line vs vertically */
+	padding: 0em 1.3em 0em 0em;
+}
