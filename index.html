@@ -1,56 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<html>
 <head>
-	<title>Waine's Google Clone</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-
-</head>
-
+	<title>GoldenGrams</title>
+	<link rel="stylesheet" link="text/css" href="main.css" />
+</head>	
 <body>
-	<header> <!--difference btween header and div */-->
-		<a href="https://plus.google.com/u/0/?tab=wX">+You</a> 
-		<a href="https://www.google.com/webhp?hl=en&tab=ww">Search</a> <!--how to exclude &? and why-->
-		<a href="https://www.google.com/imghp?hl=en&amp;tab=wi">Images</a>
-		<a href="https://maps.google.com/maps?hl=en&amp;tab=wl">Maps</a>
-		<a href="https://play.google.com/store?hl=en&amp;tab=l8">Play</a>
-		<a href="https://www.youtube.com/?tab=81">YouTube</a>
-		<a href="https://news.google.com/nwshp?hl=en&amp;tab=wn">News</a>
-		<a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-		<a href="https://drive.google.com/?tab=wo&amp;authuser=0">Drive</a>
-		<a href="https://www.google.com/calendar?tab=wc">Calendar</a>
-		<a href="http://www.google.com/intl/en/options/">More</a>
-	</header>
-
-	 <div class="button" id="signIn"> <!--how to move button to top w/o physically moving code?-->
-	 	<a href="https://accounts.google.com/ServiceLogin?hl=en&amp;continue=https://www.google.com/webhp%3Fhl%3Den%26tab%3Diw">SIGN IN</a>
-	 </div>
-
-	 <div class="main">
-	 	<img id="logo" src="images/googleLogo.png" alt="Google logo"/>
-	 	<form action="#" method="foo">
-	 		<input class="searchField" type="text" name="searchInput">
-	 	</form>
-	 </div>
-
-	<div id="buttonWrap"> 
-	 <div class="button" id="searchButton"> 
-	 	<a href="#">Google Search</a>
-	 </div>
-
-	 <div class="button" id="feelingLucky">
-	 	<a href="#">I'm Feeling Lucky</a>
-	 </div>
+	<div id="container">
+		<h1 id="logo">GoldenGrams</h1>
+		<div class="input">
+			<!-- <form> -->
+				<input type="text" value="" name="username" id="username" />
+				<input type="submit" value="Lookup Username" id="lookup" />
+			<!-- </form> -->
+		</div>
+		<div id="photos_container">
+			<!-- put pictures here -->
+		</div>
 	</div>
-	 
-	<div id="footer"> <!--what do call id vs class-->
-		<ul class="horizMenu">
-			<li><a href="https://www.google.com/intl/en/ads/">Advertising Programs</a></li>
-			<li><a href="https://www.google.com/services/">Business Solutions</a></li>
-			<li><a href="https://www.google.com/intl/en/policies/">Privacy &amp; Terms</a></li>
-			<li><a href="https://plus.google.com/116899029375914044550">+Google</a></li>
-			<li><a href="https://www.google.com/intl/en/about.html">About Google</a></li>
-		</ul>
-	</div>
-
-</body>
-
+	<footer>
+		<p>Created by Waine Tam</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="app.js"></script>	
+</body>	
 </html>
